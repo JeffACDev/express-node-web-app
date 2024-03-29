@@ -14,6 +14,6 @@ app.get('/',(req, res)=>{
 });
 
 app.listen(3000, ()=>{
-    debug('listening on port 3000')
+    debug('listening to port 3000')
 });
 

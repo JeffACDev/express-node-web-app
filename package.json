@@ -4,10 +4,10 @@
   "description": "This is a web application using Express and Node",
   "main": "index.js",
   "scripts": {
-    "run": "node app.js",
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "debug": "DEBUG=* node app.js",
-    "debug:app": "DEBUG=app node app.js"
+    "debug": "DEBUG=* nodemon app.js",
+    "debug:app": "DEBUG=app nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,11 @@
     "chalk": "^5.3.0",
     "debug": "^4.3.4",
     "express": "^4.19.2",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.0"
+  },
+  "nodemonConfig":{
+    "restartable": "rs",
+    "delay": 2500
   }
 }
