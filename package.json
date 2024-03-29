@@ -1,0 +1,22 @@
+{
+  "name": "express-node-web-app",
+  "version": "1.0.0",
+  "description": "This is a web application using Express and Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JeffACDev/express-node-web-app"
+  },
+  "keywords": [
+    "Express",
+    "Node.js"
+  ],
+  "author": "Jeffery T. Anderson",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
